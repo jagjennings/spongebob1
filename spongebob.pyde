@@ -45,7 +45,14 @@ def setup():
     fill(138, 54, 15)                              # fill pants brown
     rect(240, 370, 200, 40)                        # make front of shirt
     quad(200, 330, 240, 370, 240, 410, 200, 370)   # make left side of shirt
-    beltWidth = 40
+    beltWidth = 30
     beltHeight = 10
     fill(0, 0, 0)                                  # fill belt black
-    rect(245, 385, beltWidth, beltHeight)
+    rect(258, 385, beltWidth, beltHeight)
+    rect(303, 385, beltWidth, beltHeight)
+    rect(348, 385, beltWidth, beltHeight)
+    rect(393, 385, beltWidth, beltHeight)
+    quad(200, 343, 210, 353, 210, 363, 200, 353)
+    quad(230, 373, 240, 383, 240, 393, 230, 383)
+    
+    
